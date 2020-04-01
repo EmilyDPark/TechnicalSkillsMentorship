@@ -28,13 +28,15 @@ namespace TechnicalSkillsMentorship
         // Hour hand stays on number
         public int MinClockAngle(int time)
         {
+            int hour = time / 100;
+            int minute = time % 100;
+
             if (time < 0 || time > 2359)
             {
                 throw new InvalidOperationException();
             }
-
-            int hour = time / 100;
-            int minute = time % 100;
+            else if (minute > 60)
+                throw new ArgumentOutOfRangeException();
 
             if (hour > 12)
                 hour -= 12;
@@ -51,13 +53,15 @@ namespace TechnicalSkillsMentorship
         // Hour hand moves with Minute hand
         public double PreciseMinClockAngle(int time)
         {
+            int hour = time / 100;
+            int minute = time % 100;
+
             if (time < 0 || time > 2359)
             {
                 throw new InvalidOperationException();
             }
-
-            double hour = time / 100;
-            double minute = time % 100;
+            else if (minute > 60)
+                throw new ArgumentOutOfRangeException();
 
             if (hour > 12)
                 hour -= 12;
