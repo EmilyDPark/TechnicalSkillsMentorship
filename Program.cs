@@ -10,33 +10,45 @@ namespace TechnicalSkillsMentorship
     {
         static void Main(string[] args)
         {
-            // _3_CalculateMinClockAngle
-            Console.WriteLine("_3_CalculateMinClockAngle");
-            var minAngle = new _3_CalculateMinClockAngle();
-            Console.WriteLine("0345");
-            Console.WriteLine($"Minimum angle: {minAngle.MinClockAngle(0345)}");
-            Console.WriteLine("0930");
-            Console.WriteLine($"Minimum angle: {minAngle.MinClockAngle(0930)}");
-            Console.WriteLine("0250");
-            Console.WriteLine($"Minimum angle: {minAngle.MinClockAngle(0250)}");
-            Console.WriteLine("0305");
-            Console.WriteLine($"Minimum angle: {minAngle.MinClockAngle(0305)}");
-            Console.WriteLine("1505");
-            Console.WriteLine($"Minimum angle: {minAngle.MinClockAngle(1505)}\n");
+            // _4_CaesarCipher
+            Console.WriteLine("_4_CaesarCipher");
+            var caesarCipher = new _4_CaesarCipher();
+            Console.WriteLine($"Example 1: {caesarCipher.CaesarCipher("Pa$$w0rd", 6)}"); // Vg$$c6xj
+            //Console.WriteLine($"Example 2: {caesarCipher.CaesarCipher("THE SHIPS WILL SAIL AT 0351.", 2)}"); // VJG UJKRU YKNN UCKN CV 2573.
+            //Console.WriteLine($"Example 3: {caesarCipher.CaesarCipher("RETREAT!! AT 0957", 5)}"); // WJYWJFY!! FY 5402
+            //Console.WriteLine($"Example 4: {caesarCipher.CaesarCipher("Pa$$w0rd", 26)}"); // Vg$$c6xj
 
-            // _3_CalculateMinClockAngle (Precise)
-            Console.WriteLine("_3_CalculateMinClockAngle (Precise)");
-            var preciseMinAngle = new _3_CalculateMinClockAngle();
-            Console.WriteLine("0345");
-            Console.WriteLine($"Minimum angle: {preciseMinAngle.PreciseMinClockAngle(0345)}");
-            Console.WriteLine("0930");
-            Console.WriteLine($"Minimum angle: {preciseMinAngle.PreciseMinClockAngle(0930)}");
-            Console.WriteLine("0250");
-            Console.WriteLine($"Minimum angle: {preciseMinAngle.PreciseMinClockAngle(0250)}");
-            Console.WriteLine("0305");
-            Console.WriteLine($"Minimum angle: {preciseMinAngle.PreciseMinClockAngle(0305)}");
-            Console.WriteLine("1505");
-            Console.WriteLine($"Minimum angle: {preciseMinAngle.PreciseMinClockAngle(1505)}");
+
+
+
+
+            //// _3_CalculateMinClockAngle
+            //Console.WriteLine("_3_CalculateMinClockAngle");
+            //var minAngle = new _3_CalculateMinClockAngle();
+            //Console.WriteLine("0345");
+            //Console.WriteLine($"Minimum angle: {minAngle.MinClockAngle(0345)}");
+            //Console.WriteLine("0930");
+            //Console.WriteLine($"Minimum angle: {minAngle.MinClockAngle(0930)}");
+            //Console.WriteLine("0250");
+            //Console.WriteLine($"Minimum angle: {minAngle.MinClockAngle(0250)}");
+            //Console.WriteLine("0305");
+            //Console.WriteLine($"Minimum angle: {minAngle.MinClockAngle(0305)}");
+            //Console.WriteLine("1505");
+            //Console.WriteLine($"Minimum angle: {minAngle.MinClockAngle(1505)}\n");
+
+            //// _3_CalculateMinClockAngle (Precise)
+            //Console.WriteLine("_3_CalculateMinClockAngle (Precise)");
+            //var preciseMinAngle = new _3_CalculateMinClockAngle();
+            //Console.WriteLine("0345");
+            //Console.WriteLine($"Minimum angle: {preciseMinAngle.PreciseMinClockAngle(0345)}");
+            //Console.WriteLine("0930");
+            //Console.WriteLine($"Minimum angle: {preciseMinAngle.PreciseMinClockAngle(0930)}");
+            //Console.WriteLine("0250");
+            //Console.WriteLine($"Minimum angle: {preciseMinAngle.PreciseMinClockAngle(0250)}");
+            //Console.WriteLine("0305");
+            //Console.WriteLine($"Minimum angle: {preciseMinAngle.PreciseMinClockAngle(0305)}");
+            //Console.WriteLine("1505");
+            //Console.WriteLine($"Minimum angle: {preciseMinAngle.PreciseMinClockAngle(1505)}");
 
 
             //// _2_FindFactorial
